@@ -1827,8 +1827,8 @@ class CourseEnrollmentAttribute(models.Model):
     name = models.CharField(
         max_length=255,
         help_text=_("Name of the enrollment attribute e.g. provider_id")
-        )
+    )
     value = models.CharField(
         max_length=255,
         help_text=_("Value of the enrollment attribute e.g. ASU")
-        )
+    )
